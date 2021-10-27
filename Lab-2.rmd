@@ -1,0 +1,24 @@
+---
+title: "Lab 2"
+author: "Danica Burwell"
+date: "10/27/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(here)
+library(tidyverse)
+
+# store data dictionary file path
+DD_FILEPATH <- here::here( "~/SCHOOL/Fall 2021 B/Lab 2/Newest/Lab-2/LTDB-DATA-DICTIONARY.csv" )
+
+# import data dictionary
+dd <- read.csv( DD_FILEPATH, stringsAsFactors=F )
+
+
+
+```
+
