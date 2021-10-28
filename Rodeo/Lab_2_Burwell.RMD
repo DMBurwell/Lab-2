@@ -1,0 +1,43 @@
+---
+title: "Lab 2"
+author: "Danica Burwell"
+date: "10/27/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(here)
+library(pander)
+
+
+```
+
+
+
+```{r}
+
+#Filter 1: Search by Category
+
+
+
+
+
+```
+
+
+```{r}
+#Filter 2: Search by Description
+
+
+```
+
+
+```{r}
+#Filter 3: Search by Time Period
+
+
+```
+

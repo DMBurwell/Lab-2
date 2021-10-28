@@ -69,7 +69,7 @@ pfhh,pfhh,fam,pct female-headed families with children,,,,,,,,,,pfhh12
 pmar,pmar,fam,"pct currently married, not separated",,,,,,,,,,pmar12
 pmulti,pmulti,fam,pct multi-family units,,,,,,,,,,pmulti12
 pwds,pwds,fam,"pct widowed, divorced and separated",,,,,,,,,,pwds12
-wds,wds,family,"widowed, divorced, and separated",WDS70,,WDS80,,WDS90,,,WDS00,,wds12
+wds,wds,fam,"widowed, divorced, and separated",WDS70,,WDS80,,WDS90,,,WDS00,,wds12
 dfmpov,dfmpov,fam-ses,families for whom poverty status is determined,,DFMPOV70,,dfmpov80,,DFMPOV90,,DFMPOV00,,dfmpov12
 pfmpov,pfmpov,fam-ses,"pct in poverty, families with children",,,,,,,,,,pfmpov12
 dmulti,dmulti,house,housing units,DMULTI70,,,dmulti80,,DMULTI90,,DMULTI00,,dmulti12
