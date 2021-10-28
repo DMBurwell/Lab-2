@@ -11,7 +11,7 @@ library(here)
 library(tidyverse)
 
 
-DD_FILEPATH <- here::here( "C:/Users/danic/OneDrive/Documents/SCHOOL/Fall 2021 B/Lab 2/Data/Rodeo/ltdb-data-dictionary.csv" )
+DD_FILEPATH <- here::here( "~/SCHOOL/Fall 2021 B/Lab 2/Newest/Lab 2/LTDB-DATA-DICTIONARY.csv" )
 
 # import data dictionary
 dd <- read.csv( DD_FILEPATH, stringsAsFactors=F )

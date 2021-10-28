@@ -13,12 +13,61 @@ library(here)
 library(tidyverse)
 
 # store data dictionary file path
-DD_FILEPATH <- here::here( "~/SCHOOL/Fall 2021 B/Lab 2/Newest/Lab-2/LTDB-DATA-DICTIONARY.csv" )
+DD_FILEPATH <- here::here( "~/SCHOOL/Fall 2021 B/Lab 2/Newest/Lab 2/LTDB-DATA-DICTIONARY.csv" )
 
 # import data dictionary
 dd <- read.csv( DD_FILEPATH, stringsAsFactors=F )
 
-this is my file
+source(here("Newest/Lab 2/Utilites.R"))
+
+```
+
+
+
+```{r}
+
+#Filter 1: Filter by Category
+
+
+category_filter <- function(data, keyword){
+  
+  category_search <- grepl(keyword, data$category, ignore.case=T)
+  
+  categories.found <- data[category_search, c("category")]
+  
+  return(categories.found)}
+
+category_filter(dd, "age")
+
+```
+
+
+```{r}
+
+#Filter 2: Search Variable Description
+
+
+description_filter <- function(data, keyword){
+  
+  description_search <- grepl(keyword, data$definition, ignore.case=T)
+  
+  keywords.found <- data[description_search, c("definition")]
+  
+  return(keywords.found)}
+
+
+category_filter(dd, "white")
+
+
+```
+
+
+
+```{r}
+
+#Filter 3: Search Variables by Time Period
+
+
 
 ```
 
